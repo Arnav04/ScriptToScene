@@ -1,0 +1,22 @@
+{
+    "testId": "faf1815c-59f7-4ac2-b0dc-fb7d7992c751",
+    "name": "Instruction Addon",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
